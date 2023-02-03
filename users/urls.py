@@ -23,8 +23,8 @@ urlpatterns = [
         name='password_reset_confirm'
     ),
 
-
     path('profile/', views.profile, name='profile'),
+
     path('profile/update/', views.update_profile, name='update-profile'),
 
 ]
